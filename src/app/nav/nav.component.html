@@ -1,9 +1,12 @@
 <header>
   <nav>
-    <div>
-      <a mat-raised-button *ngFor="let item of menuItems">
-        {{item.name}}
-    </a>
-    </div>
+      <div class="col-lg-1">
+        <a class="brand">Financeiro</a>
+      </div>
+     <div class="menu-superior col-lg-4">
+        <a class="menu_link" *ngFor="let item of menuItems">
+          {{item.name}}
+        </a>
+     </div>
   </nav>
 </header>

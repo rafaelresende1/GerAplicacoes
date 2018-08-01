@@ -1,0 +1,23 @@
+nav {
+    height: 60px;
+    background-color: orange;
+}
+nav .brand{
+    font-size: 2.0em;
+    color: #FAFAFA;
+    float: left;
+    padding-top: 13px;
+}
+nav .menu-superior{
+    font-size: 1.5em;
+    color: #FAFAFA;
+    float: left;
+    padding-left: 40px;
+    padding-top: 17px;
+}
+nav .menu-superior:hover a span{
+    background-color: red;
+}
+nav .menu_link{
+    padding-left: 15px;
+}
